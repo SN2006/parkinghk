@@ -15,5 +15,27 @@
       "privatePolicy": "Privacy Policy"
     },
     "copyright": "Copyright © ParkingHK.com. All Rights Reserved"
+  },
+  "main": {
+    "questions": {
+      "title": "How Parkinghk.com Works",
+      "list": {
+        "talk": {
+          "title": "Talk ...",
+          "text": "Through Parkinghk.com to discuss by SMS and email agreement reached and signed online. Pay service fee, fully refund if other party does not sign",
+          "readMore": "read more ... bargain platform?"
+        },
+        "sold": {
+          "title": "Leased / Sold...",
+          "text": "Witnessed by us, you print out online Agreement then arrange to hand over car park",
+          "readMore": "read more ... sales and purchase step?"
+        },
+        "search": {
+          "title": "Search ...",
+          "text": "Just by building name, use search box below to find your carpark easily. No availability, no problem, place a free Wanted Ad to let landlords see. Owners use the same to find tenant !",
+          "readMore": "read more ... size of parking space?"
+        }
+      }
+    }
   }
 }

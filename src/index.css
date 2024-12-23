@@ -11,6 +11,17 @@
 
 @font-face {
   font-family: 'Avenir Next';
+  font-weight: 400;
+  font-style: italic;
+  src: local('Avenir Next'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Italic.woff2") format('woff2'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Italic.woff") format('woff'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Italic.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
   font-weight: 500;
   font-style: normal;
   src: local('Avenir Next'),
