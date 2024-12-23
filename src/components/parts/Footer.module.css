@@ -1,0 +1,122 @@
+.footer-wrapper{
+    background: rgba(45, 111, 74, 1);
+}
+
+.footer-inner{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 17px;
+}
+
+.footer__copyright{
+    width: 100%;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 27.32px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: white;
+}
+
+.footer__links-link{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 27.32px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    text-wrap: nowrap;
+    transition: .4s ease-in-out;
+}
+
+.footer__links-link:hover{
+    color: rgba(246, 213, 90, 1);
+}
+
+.footer__links{
+    display: grid;
+    width: 100%;
+    grid-template-areas:
+    "a0 a1 a4 a5"
+    "a0 a2 . a6"
+    ". a3 . .";
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.footer__logo-box{
+    grid-area: a0;
+}
+
+.link1{
+    grid-area: a1;
+}
+
+.link2{
+    grid-area: a2;
+}
+
+.link3{
+    grid-area: a3;
+}
+
+.link4{
+    grid-area: a4;
+}
+
+.link5{
+    grid-area: a5;
+}
+
+.link6{
+    grid-area: a6;
+}
+
+.footer__logo-box--small{
+    display: none;
+}
+
+@media (max-width: 850px) {
+    .footer__links{
+        grid-template-areas:
+            "a0 a1 a4"
+            "a0 a2 a5"
+            ". a3 a6";
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 650px) {
+    .footer__links-link{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 26.12px;
+    }
+
+    .footer__copyright{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 19.12px;
+    }
+
+    .footer__logo-box--big{
+        display: none;
+    }
+
+    .footer__logo-box--small{
+        display: block;
+    }
+
+    .footer-inner{
+        height: 176px;
+        justify-content: start;
+        padding: 15px 0;
+        gap: 20px;
+    }
+}

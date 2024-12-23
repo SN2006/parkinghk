@@ -1,0 +1,19 @@
+{
+  "header": {
+    "links": {
+      "info": "Info. Center",
+      "login": "Login / Register"
+    }
+  },
+  "footer": {
+    "links": {
+      "faq": "FAQ",
+      "userGuide": "User Guide",
+      "contactUs": "Contact Us",
+      "agentRegister": "Agent register",
+      "termsConditions": "Terms & Conditions",
+      "privatePolicy": "Privacy Policy"
+    },
+    "copyright": "Copyright © ParkingHK.com. All Rights Reserved"
+  }
+}

@@ -1,0 +1,77 @@
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 400;
+  font-style: normal;
+  src: local('Avenir Next'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Regular.woff2") format('woff2'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Regular.woff") format('woff'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Regular.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 500;
+  font-style: normal;
+  src: local('Avenir Next'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Medium.woff2") format('woff2'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Medium.woff") format('woff'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Medium.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 600;
+  font-style: normal;
+  src: local('Avenir Next'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Demi.woff2") format('woff2'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Demi.woff") format('woff'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Demi.eot") format('eot');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Avenir Next';
+  font-weight: 700;
+  font-style: normal;
+  src: local('Avenir Next'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Bold.woff2") format('woff2'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Bold.woff") format('woff'),
+  url("./fonts/AvinerNext/AvenirNextCyr-Bold.eot") format('eot');
+  font-display: swap;
+}
+
+:root {
+  font-family: 'Avenir Next', sans-serif;
+  font-weight: 500;
+
+  color-scheme: light dark;
+  color: black;
+  background: #FFF;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body{
+  overflow-x: hidden;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+.empty-btn{
+  border: none;
+  background: none;
+  cursor: pointer;
+}
