@@ -60,6 +60,7 @@
   color-scheme: light dark;
   color: black;
   background: #FFF;
+  overflow-x: hidden;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -85,4 +86,18 @@ a{
   border: none;
   background: none;
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header-replacer{
+  width: 100%;
+  height: 100px;
+}
+
+@media (max-width: 850px){
+  .header-replacer{
+    height: 75px;
+  }
 }

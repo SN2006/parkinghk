@@ -3,6 +3,7 @@ import {CenterContainer} from "../UI/containers/CenterContainer.jsx";
 import styles from "./Header.module.css"
 import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
+import {BurgerMenu} from "./BurgerMenu.jsx";
 
 const locales = {
     "en": {
@@ -49,14 +50,7 @@ export const Header = () => {
                     <Links i18n={i18n} t={t}/>
                 </nav>
                 <nav className={`${styles['header__links']} ${styles['header__links--small']}`}>
-                    <button className={"empty-btn"}>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" viewBox="0 0 25 24" fill="none">
-                            <path
-                                d="M3.21191 6C3.21191 5.724 3.43591 5.5 3.71191 5.5H21.7119C21.9879 5.5 22.2119 5.724 22.2119 6C22.2119 6.276 21.9879 6.5 21.7119 6.5H3.71191C3.43591 6.5 3.21191 6.276 3.21191 6ZM21.7119 11.5H3.71191C3.43591 11.5 3.21191 11.724 3.21191 12C3.21191 12.276 3.43591 12.5 3.71191 12.5H21.7119C21.9879 12.5 22.2119 12.276 22.2119 12C22.2119 11.724 21.9879 11.5 21.7119 11.5ZM21.7119 17.5H3.71191C3.43591 17.5 3.21191 17.724 3.21191 18C3.21191 18.276 3.43591 18.5 3.71191 18.5H21.7119C21.9879 18.5 22.2119 18.276 22.2119 18C22.2119 17.724 21.9879 17.5 21.7119 17.5Z"
-                                fill="white"/>
-                        </svg>
-                    </button>
-                    {/*<Links i18n={i18n} t={t}/>*/}
+                    <BurgerMenu/>
                 </nav>
             </div>
         </CenterContainer>

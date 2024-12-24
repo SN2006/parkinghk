@@ -5,6 +5,21 @@
       "login": "Login / Register"
     }
   },
+  "burger": {
+    "links": {
+      "login": "LOG IN",
+      "register": "REGISTER",
+      "home": "HOME",
+      "placeCarpark": "PLACE A CARPARK",
+      "wantCarpark": "WANT A CARPARK",
+      "video": "80 SEC. VIDEO HOW TO USE",
+      "bargain": "BARGAIN PLATFORM",
+      "faq": "FAQ",
+      "media": "MEDIA CORNER",
+      "profile": "COMPANY PROFILE",
+      "contactUs": "CONTACT US"
+    }
+  },
   "footer": {
     "links": {
       "faq": "FAQ",
