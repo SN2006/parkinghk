@@ -17,7 +17,7 @@ export const Questions = () => {
                     <QuestionCarousel/>
                 </div>
                 <div className={styles['questions__list--small']}>
-                    <div className={styles['questions__list-scroll']}>
+                    {/*<div className={styles['questions__list-scroll']}>*/}
                         <QuestionCard
                             icon={<ChatIcon/>}
                             title={t("main.questions.list.talk.title")}
@@ -45,7 +45,7 @@ export const Questions = () => {
                             active
                             small
                         />
-                    </div>
+                    {/*</div>*/}
                 </div>
             </div>
         </CenterContainer>

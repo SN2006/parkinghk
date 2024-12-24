@@ -83,14 +83,16 @@
 
 @media (max-width: 850px) {
     .question-card{
+        scroll-snap-align: center;
         position: relative;
         border: 1px solid rgba(45, 111, 74, 1);
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 850px) {
     .question-card{
         min-width: calc(100vw - 50px);
+        margin: 0 25px;
     }
 
     .question-card__text{
