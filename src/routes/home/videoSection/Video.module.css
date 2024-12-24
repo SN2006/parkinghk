@@ -1,0 +1,9 @@
+.video{
+    padding: 127px 0;
+}
+
+@media (max-width: 850px) {
+    .video{
+        padding: 50px 0;
+    }
+}

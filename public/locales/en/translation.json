@@ -51,6 +51,11 @@
           "readMore": "read more ... size of parking space?"
         }
       }
+    },
+    "video": {
+      "button": {
+        "text": "Watch our 80 seconds video to learn more"
+      }
     }
   }
 }
