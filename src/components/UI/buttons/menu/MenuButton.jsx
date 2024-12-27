@@ -2,12 +2,12 @@ import {motion} from "motion/react";
 
 export const MenuButton = ({color, isOpen, onClick}) => {
     return <button style={{
-        width: 30,
-        height: 30,
+        width: 24,
+        height: 24,
     }} className={"empty-btn"} onClick={onClick}>
         <svg
             xmlns="http://www.w3.org/2000/svg"
-            width="20" height="20"
+            width="18" height="18"
             viewBox="0 0 30 30"
             fill="none"
         >

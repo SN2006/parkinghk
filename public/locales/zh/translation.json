@@ -7,55 +7,61 @@
   },
   "burger": {
     "links": {
-      "login": "LOG IN",
-      "register": "REGISTER",
-      "home": "HOME",
-      "placeCarpark": "PLACE A CARPARK",
-      "wantCarpark": "WANT A CARPARK",
-      "video": "80 SEC. VIDEO HOW TO USE",
-      "bargain": "BARGAIN PLATFORM",
-      "faq": "FAQ",
-      "media": "MEDIA CORNER",
-      "profile": "COMPANY PROFILE",
-      "contactUs": "CONTACT US"
+      "login": "會員登入",
+      "register": "新會員註冊",
+      "home": "主頁",
+      "placeCarpark": "刊登廣告",
+      "wantCarpark": "徵求車位",
+      "video": "80秒影片",
+      "bargain": "談判平台",
+      "faq": "常見問題",
+      "media": "傳媒報導",
+      "profile": "公司簡介",
+      "contactUs": "聯絡我們"
     }
   },
   "footer": {
     "links": {
-      "faq": "FAQ",
-      "userGuide": "User Guide",
-      "contactUs": "Contact Us",
-      "agentRegister": "Agent register",
-      "termsConditions": "Terms & Conditions",
-      "privatePolicy": "Privacy Policy"
+      "faq": "常見問題",
+      "userGuide": "使用指南",
+      "contactUs": "聯絡我們",
+      "agentRegister": "經紀登記",
+      "termsConditions": "使用條款",
+      "privatePolicy": "私隱告示"
     },
-    "copyright": "Copyright © ParkingHK.com. All Rights Reserved"
+    "copyright": "版權所有 © ParkingHK.com，保留所有權利。"
   },
   "main": {
     "questions": {
-      "title": "How Parkinghk.com Works",
+      "title": "Parkinghk.com的工作原理",
       "list": {
         "talk": {
-          "title": "Talk ...",
-          "text": "Through Parkinghk.com to discuss by SMS and email agreement reached and signed online. Pay service fee, fully refund if other party does not sign",
-          "readMore": "read more ... bargain platform?"
+          "title": "對話 ...",
+          "text": "香港車位.com 作平台, 經電郵及短訉商議談判 協議達成, 網上簽署. 先付小手續費, 對方不簽約, 即退款.",
+          "readMore": ""
         },
         "sold": {
-          "title": "Leased / Sold...",
-          "text": "Witnessed by us, you print out online Agreement then arrange to hand over car park",
-          "readMore": "read more ... sales and purchase step?"
+          "title": "成功租售 ...",
+          "text": "成功租售 ... 我們作見證, 請備印協議書, 相約交收車位",
+          "readMore": ""
         },
         "search": {
-          "title": "Search ...",
-          "text": "Just by building name, use search box below to find your carpark easily. No availability, no problem, place a free Wanted Ad to let landlords see. Owners use the same to find tenant !",
-          "readMore": "read more ... size of parking space?"
+          "title": "搜尋 ...",
+          "text": "10萬會員, 數萬計車位租售, 免費廣告, 直接業主",
+          "readMore": ""
         }
       }
     },
     "video": {
       "button": {
-        "text": "Watch our 80 seconds video to learn more"
+        "text": "觀看80秒短片以了解更多"
       }
+    },
+    "hero": {
+      "slogan": "安在家中 全港超過500,000車位業主和600,000車主 也可找到對方直接對話",
+      "description": "唯一香港車位平台以網上交易成交租售、自2008年",
+      "placeButton": "刊登廣告",
+      "WantButton": "徵求車位"
     }
   }
 }

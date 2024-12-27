@@ -56,6 +56,12 @@
       "button": {
         "text": "Watch our 80 seconds video to learn more"
       }
+    },
+    "hero": {
+      "slogan": "Reach directly to over 500,000 car park owners and 600,000 drivers without leaving home",
+      "description": "ONLY carpark platform to close deal online for rent and sales, since 2008",
+      "placeButton": "Place carpark Ad.",
+      "WantButton": "Want a carpark"
     }
   }
 }

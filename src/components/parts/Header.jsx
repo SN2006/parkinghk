@@ -11,7 +11,7 @@ const locales = {
         changeTo: "zh"
     },
     "zh": {
-        label: "English",
+        label: "EN",
         changeTo: "en"
     },
 }
@@ -44,12 +44,21 @@ export const Header = () => {
                     <Logo gap={26} imageHeight={58} imageWidth={147} labelHeight={44} labelWidth={260}/>
                 </div>
                 <div className={styles['header__logo--small']}>
-                    <Logo gap={26} imageHeight={37} imageWidth={95} labelHeight={28} labelWidth={167}/>
+                    <Logo gap={16} imageHeight={37} imageWidth={95} labelHeight={28} labelWidth={167}/>
                 </div>
                 <nav className={`${styles['header__links']} ${styles['header__links--big']}`}>
                     <Links i18n={i18n} t={t}/>
                 </nav>
                 <nav className={`${styles['header__links']} ${styles['header__links--small']}`}>
+                    <button
+                        className={`empty-btn ${styles['header__links-link']}`}
+                        onClick={() => {
+                            console.log("")
+                            i18n.changeLanguage(locales[i18n.resolvedLanguage].changeTo)
+                        }}
+                    >
+                        {locales[i18n.resolvedLanguage].label}
+                    </button>
                     <BurgerMenu/>
                 </nav>
             </div>

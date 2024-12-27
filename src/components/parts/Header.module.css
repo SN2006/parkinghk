@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    z-index: 10;
+    z-index: 20;
 }
 
 .header-inner{
@@ -57,6 +57,16 @@
 }
 
 @media (max-width: 850px) {
+    .header__links{
+        gap: 10px;
+    }
+
+    .header__links-link{
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 21.86px;
+    }
+
     .header__links--big{
         display: none;
     }
