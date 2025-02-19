@@ -7,14 +7,14 @@
 
 .hero-inner{
     padding: 35px 0 50px;
-    margin-top: 44vh;
+    margin-top: 41vh;
     width: 100%;
-    height: calc(56vh - 75px);
+    height: calc(59vh - 75px);
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 50px;
+    gap: 10px;
 }
 
 .hero__img{
@@ -51,10 +51,11 @@
     text-align: center;
     text-underline-position: from-font;
     text-decoration-skip-ink: none;
+    text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .hero__info{
-    color: #F6D55A;
+    color: white;
     font-size: 16px;
     font-weight: 500;
     line-height: 21.86px;

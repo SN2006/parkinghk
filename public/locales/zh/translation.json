@@ -3,7 +3,8 @@
     "links": {
       "info": "Info. Center",
       "login": "Login / Register"
-    }
+    },
+    "sinceText": "since 2008"
   },
   "burger": {
     "links": {
@@ -62,6 +63,27 @@
       "description": "唯一香港車位平台以網上交易成交租售、自2008年",
       "placeButton": "刊登廣告",
       "WantButton": "徵求車位"
+    },
+    "maps": {
+      "title": "Click on map to see latest carpark Ad.",
+      "labels": {
+        "hkIsland": "HK island",
+        "kowloon": "Kowloon",
+        "nt": "NT"
+      }
+    }
+  },
+  "inputs": {
+    "search": {
+      "placeholder": "Building / Street / District",
+      "tabs": {
+        "driver": "Driver",
+        "owner": "Owner"
+      },
+      "buttons": {
+        "find": "Find Car Park",
+        "post": "Post Car Park"
+      }
     }
   }
 }

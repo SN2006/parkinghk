@@ -43,8 +43,11 @@ export const Header = () => {
                 <div className={styles['header__logo--big']}>
                     <Logo gap={26} imageHeight={58} imageWidth={147} labelHeight={44} labelWidth={260}/>
                 </div>
-                <div className={styles['header__logo--small']}>
+                <div className={styles['header__logo--medium']}>
                     <Logo gap={16} imageHeight={37} imageWidth={95} labelHeight={28} labelWidth={167}/>
+                </div>
+                <div className={styles['header__logo--small']}>
+                    <Logo gap={16} imageHeight={24} imageWidth={63} labelHeight={17} labelWidth={100}/>
                 </div>
                 <nav className={`${styles['header__links']} ${styles['header__links--big']}`}>
                     <Links i18n={i18n} t={t}/>
@@ -53,13 +56,15 @@ export const Header = () => {
                     <button
                         className={`empty-btn ${styles['header__links-link']}`}
                         onClick={() => {
-                            console.log("")
                             i18n.changeLanguage(locales[i18n.resolvedLanguage].changeTo)
                         }}
                     >
                         {locales[i18n.resolvedLanguage].label}
                     </button>
                     <BurgerMenu/>
+                    <p className={styles['header__links-since']}>
+                        {t("header.sinceText")}
+                    </p>
                 </nav>
             </div>
         </CenterContainer>

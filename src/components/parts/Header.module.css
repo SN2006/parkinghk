@@ -13,9 +13,11 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
 .header__links{
+    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,11 +34,27 @@
     color: white;
 }
 
-.header__logo--small{
+.header__links-since{
+    position: absolute;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: white;
+    text-wrap: nowrap;
+    bottom: -20px;
+}
+
+.header__logo--medium{
     display: none;
 }
 
 .header__links--small{
+    display: none;
+}
+
+.header__logo--small{
     display: none;
 }
 
@@ -47,7 +65,7 @@
 }
 
 @media (max-width: 1000px){
-    .header__logo--small{
+    .header__logo--medium{
         display: flex;
     }
 
@@ -77,5 +95,15 @@
 
     .header-inner{
         height: 75px;
+    }
+}
+
+@media (max-width: 400px){
+    .header__logo--medium{
+        display: none;
+    }
+
+    .header__logo--small{
+        display: flex;
     }
 }

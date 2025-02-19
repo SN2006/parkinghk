@@ -3,7 +3,8 @@
     "links": {
       "info": "Info. Center",
       "login": "Login / Register"
-    }
+    },
+    "sinceText": "since 2008"
   },
   "burger": {
     "links": {
@@ -59,9 +60,30 @@
     },
     "hero": {
       "slogan": "Reach directly to over 500,000 car park owners and 600,000 drivers without leaving home",
-      "description": "ONLY carpark platform to close deal online for rent and sales, since 2008",
+      "description": "Only parking website to let you complete all steps in rent and sales online. ",
       "placeButton": "Place carpark Ad.",
       "WantButton": "Want a carpark"
+    },
+    "maps": {
+      "title": "Click on map to see latest carpark Ad.",
+      "labels": {
+        "hkIsland": "HK island",
+        "kowloon": "Kowloon",
+        "nt": "NT"
+      }
+    }
+  },
+  "inputs": {
+    "search": {
+      "placeholder": "Building / Street / District",
+      "tabs": {
+        "driver": "Driver",
+        "owner": "Owner"
+      },
+      "buttons": {
+        "find": "Find Car Park",
+        "post": "Post Car Park"
+      }
     }
   }
 }

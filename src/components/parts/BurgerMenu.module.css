@@ -1,7 +1,7 @@
 .burger-menu{
     position: fixed;
     width: 100%;
-    padding: 22px 10px;
+    padding: 0 10px;
     height: calc(100vh - 75px);
     left: 0;
     top: 75px;
@@ -27,8 +27,8 @@
     border-top: 1px solid rgba(0, 0, 0, 0.3);
 }
 
-.burger-menu__link:last-child{
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+.burger-menu__link:first-child{
+    border: none;
 }
 
 .burger-menu__link-text{
