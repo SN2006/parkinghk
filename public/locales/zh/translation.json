@@ -73,6 +73,16 @@
       }
     }
   },
+  "login": {
+    "titles": {
+      "login": "Log In",
+      "reset": "Reset password"
+    },
+    "buttons": {
+      "login": "Log In",
+      "reset": "Reset password"
+    }
+  },
   "inputs": {
     "search": {
       "placeholder": "Building / Street / District",
@@ -84,6 +94,16 @@
         "find": "Find Car Park",
         "post": "Post Car Park"
       }
+    },
+    "emailOrMobile": {
+      "label": "Email or Mobile"
+    },
+    "password": {
+      "label": "Password"
+    },
+    "notRobot": {
+      "label": "I am not robot",
+      "placeholder": "Input the number here"
     }
   }
 }

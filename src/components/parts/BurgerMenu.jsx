@@ -14,8 +14,8 @@ const burgerVariants = {
     }
 }
 
-const BurgerLink = ({to, text}) => {
-    return <Link to={to} className={styles['burger-menu__link']}>
+const BurgerLink = ({to, text, onClick}) => {
+    return <Link to={to} className={styles['burger-menu__link']} onClick={onClick}>
         <p className={styles['burger-menu__link-text']}>
             {text}
         </p>
@@ -37,6 +37,10 @@ export const BurgerMenu = () => {
         setIsOpen(prev => !prev);
     }
 
+    const onClickLink = () => {
+        setIsOpen(false);
+    }
+
     return <>
         <MenuButton
             color="white"
@@ -54,48 +58,59 @@ export const BurgerMenu = () => {
         >
             <div className={styles['burger-menu__links']}>
                 <BurgerLink
-                    to="/"
+                    to="/login"
                     text={t('burger.links.login')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.register')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.home')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.placeCarpark')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.wantCarpark')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.video')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.bargain')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.faq')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.media')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.profile')}
+                    onClick={onClickLink}
                 />
                 <BurgerLink
                     to="/"
                     text={t('burger.links.contactUs')}
+                    onClick={onClickLink}
                 />
             </div>
         </motion.div>
