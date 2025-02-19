@@ -4,6 +4,7 @@ import {useTranslation} from "react-i18next";
 import hkIslandImg from "../../../assets/icons/hkIslandIcon.png"
 import kowloonImg from "../../../assets/icons/KowloonIcon.png"
 import ntImg from "../../../assets/icons/ntIcon.png"
+import {H2} from "../../../components/UI/titles/H2.jsx";
 
 const MapItem = ({label, src}) => {
     return <button className={styles['map-item']}>
@@ -18,9 +19,9 @@ export const MapSection = () => {
     return <section className={styles['map-section']}>
         <CenterContainer>
             <div className={styles['map-section__inner']}>
-                <h2 className={styles['map-section__title']}>
+                <H2>
                     {t("main.maps.title")}
-                </h2>
+                </H2>
                 <div className={styles['map-section__list']}>
                     <MapItem src={hkIslandImg} label={t("main.maps.labels.hkIsland")}/>
                     <MapItem src={kowloonImg} label={t("main.maps.labels.kowloon")}/>

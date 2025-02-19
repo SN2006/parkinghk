@@ -4,6 +4,7 @@ import {CenterContainer} from "../../../components/UI/containers/CenterContainer
 import {SimpleInput} from "../../../components/UI/inputs/SimpleInput.jsx";
 import {useForm} from "react-hook-form";
 import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
+import {H2} from "../../../components/UI/titles/H2.jsx";
 
 export const LoginForm = () => {
     const [t, i18n] = useTranslation();
@@ -20,9 +21,9 @@ export const LoginForm = () => {
     return <section className={styles.login}>
         <CenterContainer>
             <div className={styles["login-inner"]}>
-                <h2 className={styles["login__title"]}>
+                <H2>
                     {t("login.titles.login")}
-                </h2>
+                </H2>
                 <form className={styles.form} onSubmit={handleSubmit(onFormSubmit)}>
                     <SimpleInput
                         input={{

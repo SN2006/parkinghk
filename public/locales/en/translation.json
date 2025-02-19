@@ -83,6 +83,9 @@
       "reset": "Reset password"
     }
   },
+  "howToUse": {
+    "title": "Watch 80 seconds How To Use video"
+  },
   "inputs": {
     "search": {
       "placeholder": "Building / Street / District",

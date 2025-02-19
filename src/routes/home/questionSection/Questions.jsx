@@ -6,13 +6,14 @@ import {QuestionCard} from "./QuestionCard.jsx";
 import {ChatIcon} from "../../../components/UI/icons/ChatIcon.jsx";
 import {SearchIcon} from "../../../components/UI/icons/SearchIcon.jsx";
 import {HandIcon} from "../../../components/UI/icons/HandIcon.jsx";
+import {H2} from "../../../components/UI/titles/H2.jsx";
 
 export const Questions = () => {
     const {t, i18n} = useTranslation();
     return <section className={styles['questions']}>
         <CenterContainer>
             <div className={styles['questions-inner']}>
-                <h2 className={styles['questions__title']}>{t('main.questions.title')}</h2>
+                <H2>{t('main.questions.title')}</H2>
                 <div className={styles['questions__list--big']}>
                     <QuestionCarousel/>
                 </div>

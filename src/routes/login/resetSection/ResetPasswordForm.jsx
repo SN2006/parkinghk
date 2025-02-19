@@ -5,6 +5,7 @@ import {CenterContainer} from "../../../components/UI/containers/CenterContainer
 import {SimpleInput} from "../../../components/UI/inputs/SimpleInput.jsx";
 import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
 import {useState} from "react";
+import {H2} from "../../../components/UI/titles/H2.jsx";
 
 export const ResetPasswordForm = () => {
     const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * 900_000 + 100_000));
@@ -22,9 +23,9 @@ export const ResetPasswordForm = () => {
     return <section className={styles.login}>
         <CenterContainer>
             <div className={styles["login-inner"]}>
-                <h2 className={styles["login__title"]}>
+                <H2>
                     {t("login.titles.reset")}
-                </h2>
+                </H2>
                 <form className={styles.form} onSubmit={handleSubmit(onFormSubmit)}>
                     <SimpleInput
                         input={{

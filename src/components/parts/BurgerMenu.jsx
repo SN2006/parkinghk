@@ -83,7 +83,7 @@ export const BurgerMenu = () => {
                     onClick={onClickLink}
                 />
                 <BurgerLink
-                    to="/"
+                    to="/how-to-use"
                     text={t('burger.links.video')}
                     onClick={onClickLink}
                 />
