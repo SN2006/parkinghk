@@ -4,12 +4,9 @@ import {VideoButton} from "./VideoButton.jsx";
 
 export const Video = () => {
 
-    const onOpenHandler = () => {
-    }
-
     return <section className={styles['video']}>
         <CenterContainer>
-            <VideoButton onClick={onOpenHandler}/>
+            <VideoButton/>
         </CenterContainer>
     </section>
 }
