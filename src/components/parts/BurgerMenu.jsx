@@ -93,7 +93,7 @@ export const BurgerMenu = () => {
                     onClick={onClickLink}
                 />
                 <BurgerLink
-                    to="/"
+                    to="/faq"
                     text={t('burger.links.faq')}
                     onClick={onClickLink}
                 />
@@ -103,7 +103,7 @@ export const BurgerMenu = () => {
                     onClick={onClickLink}
                 />
                 <BurgerLink
-                    to="/"
+                    to="/about"
                     text={t('burger.links.profile')}
                     onClick={onClickLink}
                 />

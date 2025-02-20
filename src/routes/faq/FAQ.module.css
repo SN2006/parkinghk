@@ -1,0 +1,17 @@
+.faq{
+    padding: 25px 0;
+}
+
+.faq-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.faq__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}

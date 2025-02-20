@@ -138,5 +138,78 @@
         "buyer": "Tenant / Buyer"
       }
     }
+  },
+  "about": {
+    "title": "About",
+    "text": "ParkingHK.com helps you search car park locations, parking space to lease, and car park space for sales across Hong Kong Island, Kowloon, and New Territories.\n \nParkingHK.com also analyses parking space demand and supply by district, reviews car park space monthly rent and price movement in districts across Hong Kong.\n \nOur customer service will assist in updating parking space availability , vehicle owner check, car park space owner identity check, or even parking space inspection, monthly parking leasing master, and car park space sales procedures.\n \nParking space owner can register on line free of charge their properties for rent and for sales to market them DIRECTLY to drivers!\n \nParkingHK.com also provides free message board to let driver and parking lot owner to exchange initial enquiries or to negotiate rent or sales price.\n \nThis information platform will serve to users at a minimal cost to search parking space not in our listing. This additional service also help validate property owner before putting down important deposit to rent a carpark space.\n \nAll our users can make use of our review and analysis on parking space demand and supply, monthly parking for rent , sales price or hourly parking rate to determine where to lease, park, for rent or purchase property with a resonable understanding of potential yield or return. These reviews and analysis are constantly refreshed on data generated from the data bank which is subject to daily change as a result of new data streaming in.\n \nParkingHK.com is not limited in providing information in Hong Kong alone. The information platform will soon include information on parking on mainland cities in very near future."
+  },
+  "faq": {
+    "title": "FAQ",
+    "questions": {
+      "first": {
+        "question": "I have registered for member but not yet receive any SMS password, what happen?",
+        "answer": "By default, our website imposes an SMS curfew between midnight and 8am the next morning. But you can change this setting in your account preferences (login required)."
+      },
+      "second": {
+        "question": "Why do I have to log in again with password after member registration?",
+        "answer": "It is a temporary membership after your first registration. Password confirmation and logging in again will confirm your permanent membership."
+      },
+      "third": {
+        "question": "Why is my advertisement for car park space not yet published?",
+        "answer": "Our editorial policy is to screen every single piece of information to ensure high data quality. Sometimes during non-office hours, this process may take a little longer than office hours. We will speed up this backlog as soon as office opens after public holiday."
+      },
+      "fourth": {
+        "question": "Why can’t I get the car park space number?",
+        "answer": "It is for property owner’s privacy protection."
+      },
+      "fifth": {
+        "question": "Is there any way to obtain car park space number?",
+        "answer": "Yes, member will be given car park space number ONLY after successfully coming to price agreement. We will email and SMS the number to tenant/buyer."
+      },
+      "sixth": {
+        "question": "Why not let us talk directly to each other?",
+        "answer": "It is part of our website policy to ensure security for both parties through sincere and genuine effort in price negotiation."
+      },
+      "seventh": {
+        "question": "Can I ask specific question not listed in your pre-set queries?",
+        "answer": "We provide a special question channel in case of query not listed in pre-set questions. Just scroll down in box after clicking “Contact owner” button. Special question is subject to our editorial policy to ensure security for both parties as well."
+      },
+      "eighth": {
+        "question": "How can I decide to rent / buy without even checking the property?",
+        "answer": "Buildings Authority in Hong Kong stipulates all private vehicle parking space to be a rectangle of about 7 ft wide by 16 ft long, you do not have interior design or maintenance and repair issue.\n \nView of property is never an issue in parking space, only major difference for parking space is open or covered.\n \nTenant/buyer should rest their decision on the location of parking space in the car park, for instance, is it next to big column or drive way of sharp turning?\n \nFor this issue, Parkinghk.com. Floor Plan enquiry service will certainly give you a very informative answer.\n \nAnother important factor for making rent/buy decision is to see if the parking space has fire service facilities, smoke exhaust or air-conditioner, and sewerage pipes nearby or on the ceiling, which will definitely undermine the space and headroom for parking.\n \nPhoto from owner is therefore very useful in finding answer to this question. Coupled with relevant information provided by Parkinghk.com, rent/buy decision will become relatively easy."
+      },
+      "ninth": {
+        "question": "Why is there no response after my offer?",
+        "answer": "Like in real world, lanolords/owners will choose to not answer enquiry if they think offer is too low or the property is leased out or sold. Our website policy is to advise tenant/buyer to search for another car park space after 48 hours tendering their offer but receive no response."
+      },
+      "tenth": {
+        "question": "How would I know the rent / price offer is sincere and genuine?",
+        "answer": "ParkingHK.com will scrutinize insincere or casual offer by imposing internal bidding policy on all members. We will make sure these offers will not go through our programmed filter system. All property owner’s privacy are protected. Property exact location and owner’s contact is not disclosed until service fee is paid by tenant / buyer and owner after reaching price agreement."
+      },
+      "eleventh": {
+        "question": "What if both parties could not come to leasing agreement after paying service fee and initially reaching price agreement?",
+        "answer": "ParkingHK.com is mainly helping both parties to reach price agreement. We are not in position to facilitate a leasing or purchase in a manner similar to property agent. As both parties already reached the price agreement, ParkingHK.com has provided service and service fee cannot be refunded accordingly."
+      },
+      "twelve": {
+        "question": "How much is the fee?",
+        "answer": "After reaching agreement, a service fee of 15% of monthly rental is payable,  0.3% of sales price is\npayable in case of selling.\n\nMinimum service fee payment is HK$200."
+      },
+      "thirteenth": {
+        "question": "What happen after I paid service fee but the other party does not pay?",
+        "answer": "ParkingHK.com will refund money paid in full if the other party does not pay service fee in 48 hours after you paid. Refund will usually take less than 1 week."
+      },
+      "fourteenth": {
+        "question": "What service does the website provide ? No direct contact with owner ? Parking space number is not shown but service fee is required?",
+        "answer": "Parkinghk.com provides free advertising service to owners, free member services to all members.\n \nThese services include Bargain Platform to let each member bargain through this channel. Parkinghk.com will send email and SMS to help follow up.\n \nWe also provide relevant parking space information and data to help our members to reach an intelligent decision.\n \nMembers can also make use of our free “Find Buyer / tenant” searching function to look for buyer / tenant, and “Car Park wanted” service to publicize the kind of car park he is searching for.\n \nFor security and privacy reason, we do not allow direct contact with owner to minimise risk of fraudulent activities.\n \nHowever, most of the messages (except some of custom questions) from both parties will be delivered untouched through our system automatically.\n \nHuman bias is therefore taken out of equation.\n \nFor same reasons, Parkinghk.com will not provide parking space number, but members can base on photos in parking space advertisement, or request photo from owners, and request for floor plan from us, together with relevant information provided, to arrive at intelligent decision.\n \nAs for service fee, we adopt a policy of no price agreement reached, no service fee will be imposed.\n \nThe spirit of this policy is to provide as much free service  to visitors as possible but at the same time to minimise our loss."
+      },
+      "fifteenth": {
+        "question": "What can I do if my account is blocked?",
+        "answer": "Please contact us to re-activate your account."
+      },
+      "sixteenth": {
+        "question": "Why my account is blocked?",
+        "answer": "Our system will automatically block account not logging in with password after 3 days of first registration. Member will receive password by SMS to their mobile phone after registration."
+      }
+    }
   }
 }

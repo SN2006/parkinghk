@@ -1,0 +1,17 @@
+.about{
+    padding: 25px 0;
+}
+
+.about-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.about__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
