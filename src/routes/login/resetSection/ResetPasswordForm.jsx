@@ -4,11 +4,10 @@ import {useForm} from "react-hook-form";
 import {CenterContainer} from "../../../components/UI/containers/CenterContainer.jsx";
 import {SimpleInput} from "../../../components/UI/inputs/SimpleInput.jsx";
 import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
-import {useState} from "react";
 import {H2} from "../../../components/UI/titles/H2.jsx";
+import {NotRobotInput} from "../../../components/UI/inputs/NotRobotInput.jsx";
 
 export const ResetPasswordForm = () => {
-    const [randomNumber, setRandomNumber] = useState(Math.floor(Math.random() * 900_000 + 100_000));
     const [t, i18n] = useTranslation();
     const {
         register,
@@ -36,24 +35,11 @@ export const ResetPasswordForm = () => {
                         required
                         hasError={errors.username}
                     />
-                    <SimpleInput
-                        input={{
-                            ...register("notRobot", {
-                                required: true,
-                                validate: (value) => {
-                                    return value === '' + randomNumber;
-                                }
-                            }),
-                            type: "text",
-                            style: {padding: "16px 15px"},
-                            placeholder: t("inputs.notRobot.placeholder"),
-                        }}
-                        label={t("inputs.notRobot.label")}
-                        required
-                        hasError={errors.notRobot}
-                    >
-                        <p className={styles['within-input']}>{randomNumber}</p>
-                    </SimpleInput>
+                    <NotRobotInput
+                        t={t}
+                        register={register}
+                        errors={errors}
+                    />
                     <SimpleButton
                         type="submit"
                     >

@@ -1,0 +1,28 @@
+.container {
+    position: relative;
+    width: 100%;
+}
+
+.input{
+    display: none;
+}
+
+.label{
+    width: 100%;
+    display: inline-block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    text-align: center;
+    text-wrap: nowrap;
+    padding: 10px 20px;
+    border: 1px solid rgba(218, 102, 44, 1);
+    border-radius: 10px;
+    transition: all .6s ease-in-out;
+}
+
+.input:checked + .label{
+    background: rgba(218, 102, 44, 1);
+    color: #ffffff;
+}

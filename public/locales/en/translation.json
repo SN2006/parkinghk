@@ -86,6 +86,17 @@
   "howToUse": {
     "title": "Watch 80 seconds How To Use video"
   },
+  "registration": {
+    "title": "Register",
+    "notes": {
+      "free": "Registration is free, easy, fast and convenient",
+      "validation": "We will send SMS and Email validation to activate your membership",
+      "legallyLiable": "Note: Property agents or imposters are legally liable for incorrect declaration"
+    },
+    "buttons": {
+      "register": "Register now"
+    }
+  },
   "inputs": {
     "search": {
       "placeholder": "Building / Street / District",
@@ -102,11 +113,30 @@
       "label": "Email or Mobile"
     },
     "password": {
-      "label": "Password"
+      "label": "Password",
+      "placeholder": "J.2024"
+    },
+    "name": {
+      "label": "Name",
+      "placeholder": "John"
+    },
+    "mobile": {
+      "label": "Mobile",
+      "placeholder": "+86153344556"
+    },
+    "email": {
+      "label": "Email",
+      "placeholder": "john.01@gmail.com"
     },
     "notRobot": {
       "label": "I am not robot",
       "placeholder": "Input the number here"
+    },
+    "customerType": {
+      "label": {
+        "owner": "Owner",
+        "buyer": "Tenant / Buyer"
+      }
     }
   }
 }
