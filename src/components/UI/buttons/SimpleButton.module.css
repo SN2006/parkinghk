@@ -1,15 +1,16 @@
 .button{
     width: 100%;
+    max-width: 306px;
     padding: 10px 15px;
     border: none;
     border-radius: 10px;
-    background: rgba(246, 213, 90, 1);
+    background: rgba(218, 102, 44, 1);
 
     font-weight: 500;
     font-size: 16px;
     line-height: 22px;
     letter-spacing: 0;
-    color: #000000;
+    color: #FFFFFF;
 
     cursor: pointer;
 }

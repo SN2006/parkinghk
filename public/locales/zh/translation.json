@@ -81,6 +81,10 @@
     "buttons": {
       "login": "Log In",
       "reset": "Reset password"
+    },
+    "without-account": {
+      "question": "Don’t have an account?",
+      "link": "Register"
     }
   },
   "howToUse": {
@@ -95,6 +99,10 @@
     },
     "buttons": {
       "register": "Register now"
+    },
+    "with-account": {
+      "question": "Already have an account?",
+      "link": "Login"
     }
   },
   "inputs": {

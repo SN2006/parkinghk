@@ -6,6 +6,7 @@ import {SimpleInput} from "../../../components/UI/inputs/SimpleInput.jsx";
 import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
 import {H2} from "../../../components/UI/titles/H2.jsx";
 import {NotRobotInput} from "../../../components/UI/inputs/NotRobotInput.jsx";
+import {EmailIcon} from "../../../components/UI/icons/EmailIcon.jsx";
 
 export const ResetPasswordForm = () => {
     const [t, i18n] = useTranslation();
@@ -26,20 +27,23 @@ export const ResetPasswordForm = () => {
                     {t("login.titles.reset")}
                 </H2>
                 <form className={styles.form} onSubmit={handleSubmit(onFormSubmit)}>
-                    <SimpleInput
-                        input={{
-                            ...register("username", {required: true}),
-                            type: "text"
-                        }}
-                        label={t("inputs.emailOrMobile.label")}
-                        required
-                        hasError={errors.username}
-                    />
-                    <NotRobotInput
-                        t={t}
-                        register={register}
-                        errors={errors}
-                    />
+                    <div className={styles['form__inputs']}>
+                        <SimpleInput
+                            input={{
+                                ...register("username", {required: true}),
+                                type: "text"
+                            }}
+                            label={t("inputs.emailOrMobile.label")}
+                            required
+                            hasError={errors.username}
+                            icon={<EmailIcon/>}
+                        />
+                        <NotRobotInput
+                            t={t}
+                            register={register}
+                            errors={errors}
+                        />
+                    </div>
                     <SimpleButton
                         type="submit"
                     >

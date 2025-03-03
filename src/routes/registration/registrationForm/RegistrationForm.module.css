@@ -3,6 +3,7 @@
 }
 
 .registration-inner{
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -24,7 +25,9 @@
     font-size: 14px;
     line-height: 19px;
     letter-spacing: 0;
-    color: rgba(45, 111, 74, 1);
+    color: rgba(218, 102, 44, 1);
+    text-align: center;
+    max-width: 306px;
 }
 
 .form__inputs{

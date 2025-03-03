@@ -4,7 +4,7 @@ import {Footer} from "./components/parts/Footer.jsx";
 
 export const App = () => {
     return <div style={{
-        minHeight: "100vh",
+        minHeight: "100lvh",
         display: "flex",
         flexDirection: "column",
         justifyContent: "space-between"

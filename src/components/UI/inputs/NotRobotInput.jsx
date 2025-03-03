@@ -14,8 +14,7 @@ export const NotRobotInput = ({register, errors, t}) => {
                 }
             }),
             type: "text",
-            style: {padding: "16px 15px"},
-            placeholder: t("inputs.notRobot.placeholder"),
+            style: {padding: "16px 0"},
         }}
         label={t("inputs.notRobot.label")}
         required

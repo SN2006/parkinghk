@@ -8,6 +8,10 @@ import {NotRobotInput} from "../../../components/UI/inputs/NotRobotInput.jsx";
 import {RadioInput} from "../../../components/UI/inputs/RadioInput.jsx";
 import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
 import {CheckInput} from "../../../components/UI/inputs/CheckInput.jsx";
+import {ProfileIcon} from "../../../components/UI/icons/ProfileIcon.jsx";
+import {KeyIcon} from "../../../components/UI/icons/KeyIcon.jsx";
+import {EmailIcon} from "../../../components/UI/icons/EmailIcon.jsx";
+import {PhoneIcon} from "../../../components/UI/icons/PhoneIcon.jsx";
 
 export const RegistrationForm = () => {
     const [t, i18n] = useTranslation();
@@ -39,11 +43,11 @@ export const RegistrationForm = () => {
                                     required: true,
                                 }),
                                 type: "text",
-                                placeholder: t("inputs.name.placeholder")
                             }}
                             label={t("inputs.name.label")}
                             required
                             hasError={errors.name}
+                            icon={<ProfileIcon />}
                         />
                         <SimpleInput
                             input={{
@@ -51,11 +55,11 @@ export const RegistrationForm = () => {
                                     required: true,
                                 }),
                                 type: "password",
-                                placeholder: t("inputs.password.placeholder")
                             }}
                             label={t("inputs.password.label")}
                             required
                             hasError={errors.password}
+                            icon={<KeyIcon/>}
                         />
                         <SimpleInput
                             input={{
@@ -64,11 +68,11 @@ export const RegistrationForm = () => {
                                     pattern: /[0-9+]+/
                                 }),
                                 type: "text",
-                                placeholder: t("inputs.mobile.placeholder")
                             }}
                             label={t("inputs.mobile.label")}
                             required
                             hasError={errors.phone}
+                            icon={<PhoneIcon/>}
                         />
                         <SimpleInput
                             input={{
@@ -77,11 +81,11 @@ export const RegistrationForm = () => {
                                     pattern: /^((?!\.)[\w\-_.]*[^.])(@\w+)(\.\w+(\.\w+)?[^.\W])$/gm
                                 }),
                                 type: "text",
-                                placeholder: t("inputs.email.placeholder")
                             }}
                             label={t("inputs.email.label")}
                             required
                             hasError={errors.email}
+                            icon={<EmailIcon/>}
                         />
                     </div>
                     <p className={styles["form__note"]}>
@@ -117,16 +121,16 @@ export const RegistrationForm = () => {
                         register={register}
                         errors={errors}
                     />
-                    <CheckInput
-                        input={{
-                            ...register("agreed", {required: true}),
-                            id: "agreed"
-                        }}
-                        hasError={errors.agreed}
-                    >
-                        I have read and agreed the
-                        <a href="https://www.parkinghk.com/en-US/about/terms/"> terms and conditions</a>
-                    </CheckInput>
+                    {/*<CheckInput*/}
+                    {/*    input={{*/}
+                    {/*        ...register("agreed", {required: true}),*/}
+                    {/*        id: "agreed"*/}
+                    {/*    }}*/}
+                    {/*    hasError={errors.agreed}*/}
+                    {/*>*/}
+                    {/*    I have read and agreed the*/}
+                    {/*    <a href="https://www.parkinghk.com/en-US/about/terms/"> terms and conditions</a>*/}
+                    {/*</CheckInput>*/}
                     <SimpleButton type="submit">
                         {t("registration.buttons.register")}
                     </SimpleButton>
