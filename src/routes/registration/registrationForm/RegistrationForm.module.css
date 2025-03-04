@@ -13,6 +13,7 @@
 
 .registration__form{
     width: 100%;
+    max-width: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -27,10 +28,11 @@
     letter-spacing: 0;
     color: rgba(218, 102, 44, 1);
     text-align: center;
-    max-width: 306px;
+    padding: 0 25px;
 }
 
 .form__inputs{
+    padding: 0 25px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -44,4 +46,14 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(175px, 1fr));
     gap: 10px;
+}
+
+@media (max-width: 400px) {
+    .form__inputs{
+        padding: 0;
+    }
+
+    .form__note{
+        padding: 0;
+    }
 }

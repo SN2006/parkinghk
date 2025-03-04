@@ -116,24 +116,26 @@ export const RegistrationForm = () => {
                     <p className={styles["form__note"]}>
                         {t("registration.notes.legallyLiable")}
                     </p>
-                    <NotRobotInput
-                        t={t}
-                        register={register}
-                        errors={errors}
-                    />
-                    {/*<CheckInput*/}
-                    {/*    input={{*/}
-                    {/*        ...register("agreed", {required: true}),*/}
-                    {/*        id: "agreed"*/}
-                    {/*    }}*/}
-                    {/*    hasError={errors.agreed}*/}
-                    {/*>*/}
-                    {/*    I have read and agreed the*/}
-                    {/*    <a href="https://www.parkinghk.com/en-US/about/terms/"> terms and conditions</a>*/}
-                    {/*</CheckInput>*/}
-                    <SimpleButton type="submit">
-                        {t("registration.buttons.register")}
-                    </SimpleButton>
+                    <div className={styles['form__inputs']}>
+                        <NotRobotInput
+                            t={t}
+                            register={register}
+                            errors={errors}
+                        />
+                        {/*<CheckInput*/}
+                        {/*    input={{*/}
+                        {/*        ...register("agreed", {required: true}),*/}
+                        {/*        id: "agreed"*/}
+                        {/*    }}*/}
+                        {/*    hasError={errors.agreed}*/}
+                        {/*>*/}
+                        {/*    I have read and agreed the*/}
+                        {/*    <a href="https://www.parkinghk.com/en-US/about/terms/"> terms and conditions</a>*/}
+                        {/*</CheckInput>*/}
+                        <SimpleButton type="submit">
+                            {t("registration.buttons.register")}
+                        </SimpleButton>
+                    </div>
                 </form>
             </div>
         </CenterContainer>
