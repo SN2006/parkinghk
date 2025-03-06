@@ -1,11 +1,11 @@
 import styles from "./VideoButton.module.css"
 import {useTranslation} from "react-i18next";
-import {Link} from "react-router";
+import {LinkWithScrolling} from "../../../components/UI/links/LinkWithScrolling.jsx";
 
 export const VideoButton = ({onClick}) => {
     const {t, i18n} = useTranslation()
 
-    return <Link to="/how-to-use" className={styles['video-button']} onClick={onClick}>
+    return <LinkWithScrolling to="/how-to-use" className={styles['video-button']} onClick={onClick}>
         <div className={styles['video-button__icon']}>
             <svg width="152" height="146" viewBox="0 0 152 146" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <g filter="url(#filter0_d_0_1)">
@@ -65,5 +65,5 @@ export const VideoButton = ({onClick}) => {
         <p className={styles['video-button__text']}>
             {t("main.video.button.text")}
         </p>
-    </Link>
+    </LinkWithScrolling>
 }

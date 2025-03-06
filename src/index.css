@@ -61,6 +61,7 @@
   color: black;
   background: #FFF;
   overflow-x: hidden;
+  scroll-behavior: smooth;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

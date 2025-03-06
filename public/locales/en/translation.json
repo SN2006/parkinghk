@@ -219,5 +219,60 @@
         "answer": "Our system will automatically block account not logging in with password after 3 days of first registration. Member will receive password by SMS to their mobile phone after registration."
       }
     }
+  },
+  "bargainPlatform": {
+    "title": "Bargain Platform",
+    "readMoreLink": "Read more, FAQs",
+    "questions": {
+      "first": {
+        "question": "Testimonial",
+        "answer": "This bargain platform is fair. I rented out a park space through it. It costs only when there's a successful deal. Yet the service charge is inexpensive. The SMS bargaining system is creative indeed.\n",
+        "italic": "Mr Wong, owner of Metro Harbourview, 2010-12"
+      },
+      "second": {
+        "question": "What is Bargain Platform ?",
+        "answer": "Bargain platform is a communication platform for our members to talk to each other through the website on parking space leasing or for sales.\n \nIt is interactive between members. Messages are passed via email and SMS text messages.\n \nOnce message is created and sent out by one party, the other party will ususally receive it in 3 minutes (if not subject to editorial approval)\n \nWe also create some standard questions and answers for your convenience. Both parties can check messages in bargain record from thier accounts\n \nIf one of you make an offer or agree on price, you need to to pre-pay the (refundable) service fee, but if no agreeement is reached at the end, there is no service charge"
+      },
+      "third": {
+        "question": "How does bargain platform work?",
+        "answer": "When you click on the big yellow button \"Offer to owner\" in the car park advertisement page, you enter\nthe trading platform\n \nYou can choose the frequently asked standard question we have prepared for you, or you can custom\nmake your very own question\n \nWe will immediately send the message to other party , the whole process is all interactive between\nmembers, ongoing until a price agreement is reached or one of the parties gives up\n \nPlease note trading platfrom is an open platform for any member to join in, so both parties can talk to\nthird party at the same time"
+      },
+      "fourth": {
+        "question": "No agreement, no fee!",
+        "answer": "We will only charge service fee until you reach agreement with other party, fee will be 15% of monthly rent or 0.3% of sales price.\n \nBefore agreement, the prepaid service fee you make on agreeing on price will be fully refundable.\n \nNo agreement reached, no fee."
+      },
+      "fifth": {
+        "question": "When will I need to pay?",
+        "answer": "When you reach agreement with other party, you need to prepay service fee\n \nIf other party fails to pay service fee in 48 hours, your payment will be refunded after 10 days\n \nBut if you decide not to pay, your agreement  will not be sent to other party"
+      },
+      "sixth": {
+        "question": "What is next?",
+        "answer": "After confirming fee payments by both parties, ParkingHK.com will within 5 minutes send contact details\n \nto both parties for them to arrange meeting up to execute the lease or sales according to\nonline Agreement reached through trading platform"
+      },
+      "seventh": {
+        "question": "Why do I need to prepay service fee? ",
+        "answer": "Except for making other party sincerely consider your intention, when you reach agreement, you need to prepay service fee because\n \n*  you can talk to other party directly through telephone or email after they pay\n*  full refund in 10 days if other party does not respond\n*  full refund in 45 days if leasing and sales of parking space unsuccessful (you need to submit proof)\n*  you can make use of our search service to confirm other party credentials through property ownership and license plate"
+      },
+      "eighth": {
+        "question": "Testimonial",
+        "answer": "This bargain platform is fair. I rented out a park space through it. It costs only when there's a successful deal. Yet the service charge is inexpensive. The SMS bargaining system is creative indeed.\nMr Wong, owner of Metro Harbourview, 2010-12"
+      },
+      "ninth": {
+        "question": "What will happen if I paid the fee but other party not pay?",
+        "answer": "The offer or agreement will be cancelled after 12 hours , and fee paid will be fully refunded within 10 days."
+      },
+      "tenth": {
+        "question": "How much is the fee?",
+        "answer": "After reaching agreement, a service fee of 15% of monthly rental is payable,  0.3% of sales price is payable in case of selling.\nMinimum service fee payment is HK$200."
+      },
+      "eleventh": {
+        "question": "How should I pay?",
+        "answer": "By credit card through paypal.\n\nYou can also transfer to BEA bank account 015-173-40-01446-7 (Inter-Con Limited) and send the confirmation slip to info@parkinghk.com.\n "
+      },
+      "twelve": {
+        "question": "What is PayPal?",
+        "answer": "Located in San Jose, California, PayPal was founded in 1998 and was acquired by eBay in 2002.\n \nPayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, buyer credit or account balances, without sharing financial information.\n \nPayPal has quickly become a global leader in online paypal solutions with more than 153 million accounts worldwide. Available in 190 markets and 24 currencies around the world, paypal enables global ecommerce by making paypals possible across different locations, currencies, and languages.\n \nPayPal has received more than 20 awards for excellence from the Internet industry and the business community - most recently the 2006 Webby Award for Best Financial Services Site and the 2006 Webby People's Voice Award for Best Financial Services Site."
+      }
+    }
   }
 }

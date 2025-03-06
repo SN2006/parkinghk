@@ -9,6 +9,7 @@ import {HowToUseVideo} from "./routes/howToUseVideo/HowToUseVideo.jsx";
 import {Registration} from "./routes/registration/Registration.jsx";
 import {About} from "./routes/about/About.jsx";
 import {FAQ} from "./routes/faq/FAQ.jsx";
+import {BargainPlatform} from "./routes/bargainPlatform/BargainPlatform.jsx";
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
@@ -19,6 +20,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/registration" element={<Registration/>}/>
                 <Route path="/how-to-use" element={<HowToUseVideo/>}/>
                 <Route path="/about" element={<About/>}/>
+                <Route path="/bargain-platform" element={<BargainPlatform/>}/>
                 <Route path="/faq" element={<FAQ/>}/>
             </Route>
         </Routes>

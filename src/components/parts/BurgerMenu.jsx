@@ -2,8 +2,8 @@ import styles from "./BurgerMenu.module.css"
 import {MenuButton} from "../UI/buttons/menu/MenuButton.jsx";
 import {useState} from "react";
 import {motion} from "motion/react";
-import {Link} from "react-router";
 import {useTranslation} from "react-i18next";
+import {LinkWithScrolling} from "../UI/links/LinkWithScrolling.jsx";
 
 const burgerVariants = {
     open: {
@@ -15,7 +15,7 @@ const burgerVariants = {
 }
 
 const BurgerLink = ({to, text, onClick}) => {
-    return <Link to={to} className={styles['burger-menu__link']} onClick={onClick}>
+    return <LinkWithScrolling to={to} className={styles['burger-menu__link']} onClick={onClick}>
         <p className={styles['burger-menu__link-text']}>
             {text}
         </p>
@@ -26,7 +26,7 @@ const BurgerLink = ({to, text, onClick}) => {
                     fill="black"/>
             </svg>
         </div>
-    </Link>
+    </LinkWithScrolling>
 }
 
 export const BurgerMenu = () => {
@@ -88,7 +88,7 @@ export const BurgerMenu = () => {
                     onClick={onClickLink}
                 />
                 <BurgerLink
-                    to="/"
+                    to="/bargain-platform"
                     text={t('burger.links.bargain')}
                     onClick={onClickLink}
                 />
