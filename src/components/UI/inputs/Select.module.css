@@ -1,0 +1,76 @@
+.container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.select{
+    width: 100%;
+    appearance: none;
+    padding: 10px 0;
+    background: none;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid rgba(218, 102, 44, 1);
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0;
+    color: #000000;
+    z-index: 2;
+}
+
+.label-container{
+    position: absolute;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transition: all .5s ease-in-out;
+}
+
+.point{
+    color: rgba(252, 38, 38, 1);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0;
+}
+
+.label{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0;
+}
+
+.hidden{
+    transform: translate(calc(-100% * 0.1), -25px) scale(0.8);
+}
+
+.select:focus + .label-container{
+    transform: translate(calc(-100% * 0.1), -25px) scale(0.8);
+    opacity: 1;
+}
+
+.option{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    letter-spacing: 0;
+}
+
+.arrow{
+    width: 17px;
+    height: 17px;
+    overflow: hidden;
+    position: absolute;
+    right: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

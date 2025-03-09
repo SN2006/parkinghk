@@ -274,5 +274,45 @@
         "answer": "Located in San Jose, California, PayPal was founded in 1998 and was acquired by eBay in 2002.\n \nPayPal is the safer, easier way to pay and get paid online. The service allows anyone to pay in any way they prefer, including through credit cards, bank accounts, buyer credit or account balances, without sharing financial information.\n \nPayPal has quickly become a global leader in online paypal solutions with more than 153 million accounts worldwide. Available in 190 markets and 24 currencies around the world, paypal enables global ecommerce by making paypals possible across different locations, currencies, and languages.\n \nPayPal has received more than 20 awards for excellence from the Internet industry and the business community - most recently the 2006 Webby Award for Best Financial Services Site and the 2006 Webby People's Voice Award for Best Financial Services Site."
       }
     }
+  },
+  "placeCarpark": {
+    "title": "Sell / Lease Your Car Park Space",
+    "inputs": {
+      "building": {
+        "label": "Building"
+      },
+      "street": {
+        "label": "Street"
+      },
+      "district": {
+        "label": "District"
+      },
+      "floor": {
+        "label": "Floor"
+      },
+      "spaceNumber": {
+        "label": "Space number"
+      },
+      "rent": {
+        "label": "Rent (HK$)"
+      },
+      "sell": {
+        "label": "Sell (HK$)"
+      }
+    },
+    "buttons": {
+      "submit": {
+        "text": "Submit"
+      },
+      "uploadPhoto": {
+        "text": "Upload photo"
+      }
+    },
+    "notes": {
+      "uploadPhoto": "Please upload a photo to increase successful marketing by 30%!"
+    },
+    "subtitles": {
+      "photos": "Uploaded photos: "
+    }
   }
 }
