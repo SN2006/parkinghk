@@ -7,18 +7,26 @@ import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
 import {H2} from "../../../components/UI/titles/H2.jsx";
 import {EmailIcon} from "../../../components/UI/icons/EmailIcon.jsx";
 import {KeyIcon} from "../../../components/UI/icons/KeyIcon.jsx";
+import {useEffect} from "react";
 
 export const LoginForm = () => {
     const [t, i18n] = useTranslation();
     const {
         register,
         handleSubmit,
-        formState: { errors }
+        formState: { errors, isSubmitSuccessful },
+        reset
     } = useForm();
 
     const onFormSubmit = (data) => {
-        alert(JSON.stringify(data));
+        console.log(data);
     }
+    
+    useEffect(() => {
+        if (isSubmitSuccessful) {
+            reset();
+        }
+    }, [isSubmitSuccessful, reset]);
 
     return <section className={styles.login}>
         <CenterContainer>

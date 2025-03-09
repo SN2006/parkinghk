@@ -12,19 +12,27 @@ import {ProfileIcon} from "../../../components/UI/icons/ProfileIcon.jsx";
 import {KeyIcon} from "../../../components/UI/icons/KeyIcon.jsx";
 import {EmailIcon} from "../../../components/UI/icons/EmailIcon.jsx";
 import {PhoneIcon} from "../../../components/UI/icons/PhoneIcon.jsx";
+import {useEffect} from "react";
 
 export const RegistrationForm = () => {
     const [t, i18n] = useTranslation();
     const {
         register,
         handleSubmit,
-        formState: { errors }
+        formState: { errors, isSubmitSuccessful },
+        reset
     } = useForm();
 
     const onFormSubmit = (data) => {
-        alert(JSON.stringify(data));
+        console.log(data);
     }
 
+    useEffect(() => {
+        if (isSubmitSuccessful) {
+            reset();
+        }
+    }, [isSubmitSuccessful, reset]);
+    
     return <section className={styles.registration}>
         <CenterContainer>
             <div className={styles["registration-inner"]}>

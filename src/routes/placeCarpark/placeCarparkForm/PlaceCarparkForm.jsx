@@ -12,7 +12,7 @@ import {SimpleButton} from "../../../components/UI/buttons/SimpleButton.jsx";
 import {Select} from "../../../components/UI/inputs/Select.jsx";
 import {DISTRICTS} from "../../../AdditionalData.jsx";
 import {DistrictIcon} from "../../../components/UI/icons/DistrictIcon.jsx";
-import {useState} from "react";
+import {useEffect, useState} from "react";
 import {motion} from "motion/react";
 
 const Photo = ({src, onDelete}) => {
@@ -31,7 +31,8 @@ export const PlaceCarparkForm = () => {
     const {
         register,
         handleSubmit,
-        formState: { errors }
+        formState: { errors, isSubmitSuccessful },
+        reset
     } = useForm();
     const [files, setFiles] = useState([]);
 
@@ -39,6 +40,13 @@ export const PlaceCarparkForm = () => {
         value["files"] = files;
         console.log(value);
     }
+
+    useEffect(() => {
+        if (isSubmitSuccessful) {
+            reset();
+            setFiles([]);
+        }
+    }, [isSubmitSuccessful, reset]);
 
     const addPhotoHandler = (e) => {
         setFiles((prevState) => [...prevState, e.target.files[0]]);
