@@ -1,0 +1,63 @@
+.want-carpark{
+    padding: 20px 0 30px;
+}
+
+.want-carpark-inner{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.want-carpark__note{
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 0;
+    text-align: center;
+    color: #DA662C;
+}
+
+.want-carpark__form{
+    max-width: 600px;
+    padding: 0 25px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.form__inputs{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.want-carpark__remark-container{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.want-carpark__hint{
+    min-height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 400px) {
+    .want-carpark__form{
+        padding: 0;
+    }
+}

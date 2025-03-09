@@ -11,6 +11,7 @@ import {About} from "./routes/about/About.jsx";
 import {FAQ} from "./routes/faq/FAQ.jsx";
 import {BargainPlatform} from "./routes/bargainPlatform/BargainPlatform.jsx";
 import {PlaceCarpark} from "./routes/placeCarpark/PlaceCarpark.jsx";
+import {WantCarPark} from "./routes/wantCarpark/WantCarPark.jsx";
 
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
@@ -20,6 +21,7 @@ createRoot(document.getElementById('root')).render(
                 <Route path="/login" element={<Login/>}/>
                 <Route path="/registration" element={<Registration/>}/>
                 <Route path="/place-carpark" element={<PlaceCarpark/>}/>
+                <Route path="/want-carpark" element={<WantCarPark/>}/>
                 <Route path="/how-to-use" element={<HowToUseVideo/>}/>
                 <Route path="/about" element={<About/>}/>
                 <Route path="/bargain-platform" element={<BargainPlatform/>}/>

@@ -1,0 +1,27 @@
+.button{
+    width: 15px;
+    height: 15px;
+    background: none;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.hint{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: calc(100% + 12px);
+    padding: 10px 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    letter-spacing: 0;
+    text-align: start;
+    vertical-align: middle;
+    color: #000000;
+    background: #FFFBD2;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    z-index: 9;
+}

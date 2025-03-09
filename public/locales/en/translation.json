@@ -314,5 +314,36 @@
     "subtitles": {
       "photos": "Uploaded photos: "
     }
+  },
+  "wantCarpark": {
+    "title": "Post “car park wanted” advertisement",
+    "inputs": {
+      "building": {
+        "label": "Building"
+      },
+      "street": {
+        "label": "Street"
+      },
+      "district": {
+        "label": "District"
+      },
+      "purchaseLeaseSelect": {
+        "label": "Purchase / Lease ",
+        "purchase": "Purchase",
+        "lease": "Lease"
+      },
+      "remark": {
+        "label": "Remarks",
+        "hint": "Please provide information for owner reference. Such as preference for purchases or leasing. When do you need parking space?"
+      }
+    },
+    "buttons": {
+      "submit": {
+        "text": "Submit"
+      }
+    },
+    "hints":{
+      "post": "Post your parking needs for free on ParkingHK.com and reach tens of thousands of car owners!"
+    }
   }
 }

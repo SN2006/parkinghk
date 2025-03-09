@@ -78,7 +78,7 @@ export const BurgerMenu = () => {
                     onClick={onClickLink}
                 />
                 <BurgerLink
-                    to="/"
+                    to="/want-carpark"
                     text={t('burger.links.wantCarpark')}
                     onClick={onClickLink}
                 />
