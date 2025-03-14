@@ -89,8 +89,8 @@ export const PlaceCarparkForm = () => {
                             label={t("placeCarpark.inputs.district.label")}
                             optionsData={DISTRICTS.map((district) => {
                                 return {
-                                    "value": `${district.state}: ${district.district}`,
-                                    "text": `${district.state}: ${district.district}`
+                                    "value": `${district}`,
+                                    "text": `${district}`
                                 }
                             })}
                             required

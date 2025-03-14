@@ -4,9 +4,15 @@ import {CenterContainer} from "../../components/UI/containers/CenterContainer.js
 import {H2} from "../../components/UI/titles/H2.jsx";
 import {H4} from "../../components/UI/titles/H4.jsx";
 import {Paragraph} from "../../components/UI/titles/Paragraph.jsx";
+import {useEffect} from "react";
 
 export const FAQ = () => {
     const {t, i18n} = useTranslation();
+
+    useEffect(() => {
+        document.title = "Frequently Asked Questions And Answers";
+    }, []);
+
     return <main>
         <section className={styles.faq}>
             <CenterContainer>

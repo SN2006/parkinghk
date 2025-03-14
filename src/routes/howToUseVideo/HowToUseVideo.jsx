@@ -1,9 +1,14 @@
 import styles from "./HowToUseVideo.module.css"
 import {useTranslation} from "react-i18next";
 import {H2} from "../../components/UI/titles/H2.jsx";
+import {useEffect} from "react";
 
 export const HowToUseVideo = () => {
     const [t, i18n] = useTranslation();
+
+    useEffect(() => {
+        document.title = "How To Use Video";
+    }, []);
 
     return <main>
         <section className={styles['how-to-use-video-section']}>

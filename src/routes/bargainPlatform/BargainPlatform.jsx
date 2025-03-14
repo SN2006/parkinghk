@@ -5,10 +5,15 @@ import {useTranslation} from "react-i18next";
 import {H4} from "../../components/UI/titles/H4.jsx";
 import {Paragraph} from "../../components/UI/titles/Paragraph.jsx";
 import {LinkWithScrolling} from "../../components/UI/links/LinkWithScrolling.jsx";
+import {useEffect} from "react";
 
 export const BargainPlatform = () => {
 
     const {t, i18n} = useTranslation();
+
+    useEffect(() => {
+        document.title = "Carpark Bargain Platform";
+    }, []);
 
     return <section className={styles["bargain-platform"]}>
         <CenterContainer>

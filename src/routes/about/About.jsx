@@ -4,6 +4,7 @@ import {H2} from "../../components/UI/titles/H2.jsx";
 import {useTranslation} from "react-i18next";
 import {H4} from "../../components/UI/titles/H4.jsx";
 import {Paragraph} from "../../components/UI/titles/Paragraph.jsx";
+import {useEffect} from "react";
 
 export const About = () => {
     const {t, i18n} = useTranslation();
